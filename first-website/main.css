@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+    color: rgb(10, 31, 218);
+    margin:40px;
+}
+
+  img{
+    max-width:100%;
+    width: 500px;
+
+   max-height:200px;
+  }
+  h1 {
+    color:rgb(15, 216, 216);
+  }
+
+  p {
+    color: yellow;
+    background-color: rgb(21, 194, 59);
+    font-size: 30px;
+   
+    border: 10px inset lightgreen;
+    border-radius: 20px;
+
+   padding: 30px 40px 10px 90px;
+
+   max-width: 500px;
+
+   height:500px;
+   overflow: auto;
+  
+
+}
+
+  .special {
+    color: blue; 
+    background-color: orangered;
+  }
+
+  /* css rules that are further down in the document have higher specificyty */
+  .neat {
+    color:blueviolet;
+  }

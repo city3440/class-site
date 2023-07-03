@@ -1,0 +1,66 @@
+* {
+    box-sizing: 
+    border-box;
+}
+
+.content-box {
+    background: rgb(255, 76, 76);
+    padding: 10px;
+    border: 10px solid rgb(64, 185, 241);
+    font-weight: bold;
+}
+
+.puzzle-box {
+    background: rgb(49, 231, 49);
+    padding: 10px;
+    border: 10px solid rgb(241, 229, 64);
+    font-weight: bold;
+    position: relative;
+    top: -230px;
+    left: 500px;
+}
+
+.puzzle-toy {
+    background: rgb(211, 98, 240);
+    padding: 10px;
+    border: 10px solid rgb(235, 111, 10);
+    font-weight: bold;
+    position: relative;
+    top: -460px;
+    left: 1000px;
+}
+
+.puzzle-word {
+    background: rgb(184, 247, 12);
+    padding: 10px;
+    border: 10px solid rgb(235, 90, 138);
+    font-weight: bold;
+    position: relative;
+    top: -460px;
+    left: 0px;
+}
+
+.sudoku-box {
+    background: rgb(242, 250, 242);
+    padding: 10px;
+    border: 10px solid rgb(0, 0, 0);
+    font-weight: bold;
+    position: relative;
+    top: -460px;
+    left: 0px;
+}
+
+.maze-box {
+    background: rgb(99, 133, 245);
+    padding: 10px;
+    border: 10px solid rgb(9, 235, 148);
+    font-weight: bold;
+}
+
+.content-box, .puzzle-box, .puzzle-toy, .puzzle-word, .sudoku-box, .maze-box {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+
+}
+

@@ -3,6 +3,12 @@
     border-box;
 }
 
+h1{
+    font-size: 175px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
 .content-box {
     background: rgb(255, 76, 76);
     padding: 10px;
@@ -28,6 +34,7 @@
     position: relative;
     top: -460px;
     left: 1000px;
+    overflow: auto;
 }
 
 .puzzle-word {
@@ -38,16 +45,17 @@
     position: relative;
     top: -460px;
     left: 0px;
+    overflow: auto;
 }
 
 .sudoku-box {
-    background: rgb(242, 250, 242);
+    background: rgb(71, 85, 71);
     padding: 10px;
     border: 10px solid rgb(0, 0, 0);
     font-weight: bold;
     position: relative;
-    top: -460px;
-    left: 0px;
+    top: -690px;
+    right: -500px;
 }
 
 .maze-box {
@@ -55,12 +63,86 @@
     padding: 10px;
     border: 10px solid rgb(9, 235, 148);
     font-weight: bold;
+    position: relative;
+    top: -920px;
+    right: -1000px;
+    overflow: auto;
 }
 
-.content-box, .puzzle-box, .puzzle-toy, .puzzle-word, .sudoku-box, .maze-box {
-    margin: 30px;
-    width: 200px;
-    height: 200px;
 
+.content-box, .puzzle-box, .puzzle-toy, .puzzle-word, .sudoku-box, .maze-box {
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    
+
+}
+
+.hidden, .hidden-text {
+    width: 100%;
+    height: 60%;
+    opacity: 0;
+
+}
+
+.hidden-two, .hidden-text-two {
+    width: 100%;
+    height: 70%;
+    opacity: 0;
+}
+
+.hidden-three, .hidden-text-three {
+    width: 100%;
+    height: 80%;
+    opacity: 0;
+    
+}
+
+.hidden-four, .hidden-text-four {
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+}
+
+.hidden-five, .hidden-text-five {
+    width: 100%;
+    height: 60%;
+    opacity: 0;
+}
+
+.hidden-six, .hidden-text-six {
+    width: 100%;
+    height:90%;
+    opacity: 0;
+}
+
+.revealer, .revealer-two, .revealer-three, .revealer-four, .revealer-five, .revealer-six {
+    color: azure;
+    font-style:oblique;
+    cursor:cell;
+}
+
+.revealer:hover + .hidden, .hidden-text {
+    opacity: 1;
+}
+
+.revealer-two:hover + .hidden-two, .hidden-text-two {
+    opacity: 1;
+}
+
+.revealer-three:hover  + .hidden-three, .hidden-text-three{
+    opacity: 1;
+}
+
+.revealer-four:hover  + .hidden-four, .hidden-text-four{
+    opacity: 1;
+}
+.revealer-five:hover  + .hidden-five, .hidden-text-five{
+    opacity: 1;
+}
+
+.revealer-six:hover + .hidden-six, .hidden-text-six{
+    opacity: 1;
 }
 

@@ -35,7 +35,7 @@ body {
     top: 20%;
     left: 60%;
 
-    animation: box 5s infinite alternate;
+    animation: box 5s infinite linear;
 }
 
 @keyframes box {
@@ -57,7 +57,7 @@ body {
     }
     100% {
         background: blue;
-        transform: rotate(360)
+        transform: rotate(360deg)
     }
     
 }

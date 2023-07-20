@@ -1,0 +1,64 @@
+* {
+    box-sizing: 
+    border-box;
+}
+
+body {
+    background-image: url(images/mission-impossible.jpg) ;
+    background-repeat: repeat;
+}
+
+.go-home {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darksalmon;
+    position: absolute;
+    bottom: 850px;
+    right:50px;
+}
+
+.mi {
+    color: red;
+}
+
+.mi2 {
+    color:yellow;
+}
+
+.mi3 {
+    color: cyan;
+}
+
+.mi4 {
+    color: rgb(94, 58, 253);
+}
+
+.mi5 {
+    color: orangered;
+}
+
+.mi6 {
+    color:rgb(9, 103, 134)
+}
+
+.mi7 {
+    color:seagreen;
+}
+
+.revealer {
+    cursor: cell;
+}
+
+.hidden {
+    width: 400px;
+    height: 600px;
+    position: fixed;
+    top:0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.revealer:hover + .hidden {
+    opacity: 1;
+}

@@ -1,0 +1,135 @@
+* {
+    box-sizing: 
+    border-box;
+}
+
+body {
+    background-image: url(images/hogwartz-background.jpg);
+    background-repeat: repeat;
+  
+    
+}
+
+h1 {
+    font-size: 40px;
+    overflow: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique; 
+    
+}
+
+h2 {
+   position: absolute;
+   left: 550px;
+   top:610px;
+    font-size: 30px;
+    color: beige;
+}
+
+.go-home {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darksalmon;
+    position: absolute;
+    bottom: 850px;
+    right:50px;
+}
+
+
+
+.logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo-1  {
+    width: 400px;
+    height: 150px;
+}
+
+.logo-2 {
+    width: 500px;
+    height: 260px;
+    
+}
+
+.list-wrap{
+    display: flex;
+    gap: 100px;
+}
+ .collumn {
+    width: 50%;
+ }
+.revealer {
+    color: crimson;
+    cursor: cell;
+   
+}
+
+.b1 {
+    color:chocolate;
+
+}
+.b2{
+    color: rgb(25, 122, 201);
+}
+
+.b3 {
+    color:burlywood;
+}
+
+.hp2 {
+    color: rgb(176, 226, 95);
+    
+    
+}
+
+.hp3 {
+    color: rgb(144, 218, 218);
+    
+}
+
+.hp4 {
+    color:rgb(103, 103, 241);
+    
+}
+
+.hp5 {
+    color:rgb(62, 170, 62);
+    
+}
+
+.hp6 {
+    color: dimgrey;
+    
+}
+
+.hp7 {
+    color: lightsteelblue;
+   
+}
+
+.hp8 {
+    color:lightcyan;
+    
+}
+
+.hidden {
+    width: 400px;
+    height: 600px;
+    position: fixed;
+    top:0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.revealer:hover + .hidden {
+    opacity: 1;
+}
+
+p {
+    color: bisque;
+}  

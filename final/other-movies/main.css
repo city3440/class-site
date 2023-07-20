@@ -1,0 +1,37 @@
+* {
+    box-sizing: 
+    border-box;
+}
+
+body {
+    background-image: url(images/1771275.jpg);
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Times, serif;
+    text-align: center;
+    font-size: 140px;
+    color: blanchedalmond;
+    text-shadow: white 2px 3px;
+}
+
+.revealer {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.go-home {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darksalmon;
+    position: absolute;
+    bottom: 850px;
+    right:50px;
+}
+
+

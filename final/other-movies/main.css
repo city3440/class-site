@@ -7,6 +7,10 @@ body {
     background-image: url(images/1771275.jpg);
     background-repeat: repeat;
 }
+img {
+    width: 100%;
+    height: 100%;
+}
 
 h1 {
     font-family: Times, serif;
@@ -16,14 +20,14 @@ h1 {
     text-shadow: white 2px 3px;
 }
 
-.revealer {
-    width: 400px;
-    height: 600px;
-    padding: 20px;
-    position: relative;
-    left: 100px;
-    
+#collumn {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
 }
+
+
 
 .go-home {
     font-size: 30px;
@@ -35,3 +39,83 @@ h1 {
 }
 
 
+.poster {
+    width: 400px;
+    height: 600px;
+    
+    position: relative;
+}
+
+.hidden {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    background: rgba(0, 183, 255, 0.582);
+    position: absolute;
+    font-size: 30px;
+    color: beige;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.poster:hover .hidden {
+    display: block;
+}
+
+.tgbh {
+    background: rgba(235, 100, 123, 0.582);
+}
+
+.ktss {
+    background: rgba(218, 165, 32, 0.5);
+}
+
+.tsmb {
+    background: rgba(255, 0, 0, 0.473);
+}
+
+.httyd {
+    background: rgba(87, 22, 22, 0.548);
+}
+
+.iod {
+    background: rgba(138, 27, 27, 0.555);
+}
+
+.sh {
+    background: rgba(49, 44, 44, 0.514);
+}
+
+.thauj {
+    background: rgba(192, 192, 192, 0.486);
+}
+
+.shrek {
+   background:rgba(34, 177, 34, 0.5); 
+}
+
+.cr {
+    background: rgba(255, 68, 0, 0.5);
+}
+
+.potc {
+    background: rgba(187, 67, 20, 0.479);
+}
+
+.fn {
+   background:rgba(255, 166, 0, 0.507); 
+}
+
+.sonic {
+    background: rgba(0, 0, 255, 0.466);
+}
+
+.wg {
+    background: rgba(165, 42, 42, 0.479);
+}
+
+.ts {
+    background: rgba(135, 207, 235, 0.384);
+}

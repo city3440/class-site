@@ -77,3 +77,58 @@ h2 {
     font-family:Georgia, 'Times New Roman', Times, serif
     
 }
+
+@media screen and (max-width:800px) {     
+    body{
+        flex-direction: wrap;
+        justify-self: center;
+        font-size: 10px;
+      }
+
+      .ij-box, .ww-box, .mi-box, .jw-box, .om-box {
+        border: 2px solid;
+        font-size: 20px;
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+      }
+
+      .container {
+        width: 300%;
+        height: 300%;
+        padding: 5px;
+
+        align-content:normal;
+        gap: 7.5px;
+        
+      }
+      .go-home{
+        justify-content: center;
+      }
+      h1, h2 {
+        
+        text-align: center;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        flex-direction: wrap;
+        justify-self: center;
+        font-size: 10px;
+    }
+
+    .container {
+        width: 300%;
+        height: 300%;
+        padding: 5px;
+
+        align-content:normal;
+        gap: 7.5px;
+        
+      }
+      .go-home{
+        justify-content: center;
+      }
+}

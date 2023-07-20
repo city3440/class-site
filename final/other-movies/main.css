@@ -119,3 +119,14 @@ justify-content: center;
 .ts {
     background: rgba(135, 207, 235, 0.384);
 }
+
+@media screen and (max-width:600px) {
+    .go-home {
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: darksalmon;
+        position:fixed;
+        bottom: 10px;
+       left:100px;
+    }
+}
